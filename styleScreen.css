@@ -1,0 +1,75 @@
+h3 {
+  font-size: 1em;
+}
+@media screen and (max-width: 1000px) {
+  .description-about {
+    width: 100%;
+  }
+
+  #progress {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .profile {
+    background-size: cover;
+  }
+  .about {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: initial;
+  }
+
+  .wrapper {
+    margin-top: 10%;
+    margin-right: 10%;
+  }
+
+  .progress-grid2 {
+    margin-bottom: 20px;
+  }
+
+  .about-img img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .description-about {
+    margin: 10px;
+  }
+
+  .about-grid1 {
+    width: 80%;
+  }
+
+  #progress {
+    width: 225px;
+  }
+
+  .services {
+    margin: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .services-title {
+    align-items: center;
+  }
+
+  .input {
+    width: 80%;
+    margin-top: 5%;
+  }
+
+  .input-area {
+    width: 80%;
+    margin-top: 5%;
+  }
+
+  .contact-buttom {
+    margin-top: 10%;
+    width: 50%;
+  }
+}
